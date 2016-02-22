@@ -1,0 +1,48 @@
+{
+    "name": "gintonicweb/makeup",
+    "description": "Adds flexibility to cakephp themes and paths",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "gintonic",
+        "makeup"
+    ],
+    "homepage": "https://github.com/gintonicweb/makeup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philippe Lafrance",
+            "homepage": "http://phillafrance.com",
+            "role": "Author"
+        },
+        {
+            "name": "Others",
+            "homepage": "https://github.com/gintonicweb/makeup/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gintonicweb/makeup/issues",
+        "source": "https://github.com/gintonicweb/makeup"
+    },
+    "require": {
+    },
+    "require-dev": {
+        "cakephp/cakephp": "~3.0",
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gintonic\\Makeup\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gintonic\\Makeup\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
