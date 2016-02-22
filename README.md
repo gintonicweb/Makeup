@@ -20,7 +20,7 @@ themes and reduce the folder-nesting madness of large applications.
 Using [Composer][composer]:
 
 ```
-composer require Gintonic/makeup:dev-master
+composer require gintonicweb/makeup:dev-master
 ```
 
 You then need to load the plugin. You can use the shell command:
