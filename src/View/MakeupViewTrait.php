@@ -9,7 +9,7 @@ use Gintonic\Makeup\View\ViewName;
 /**
  * A trait that allows the configuration of default template paths
  *
- * Implementing objects are expected to declare a `$_makeupPaths` property.
+ * Implementing objects are expected to declare a `$themes` property.
  */
 trait MakeupViewTrait
 {
